@@ -8,10 +8,10 @@ export default function Home() {
     <div className="container mx-auto px-4 py-12">
       <section className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Découvrez notre musée en 360°
+          Vue 360°
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-          Plongez au cœur de nos collections grâce à une expérience immersive unique.
+          Plongez et commencer votre visite.
         </p>
         <Link href="/visite">
           <Button size="lg" className="px-8 py-6 text-lg">
@@ -39,7 +39,7 @@ export default function Home() {
           Notre visite virtuelle vous a plu ? Venez découvrir nos collections en personne !
         </p>
         <Button variant="secondary" size="lg" className="px-8 py-6 text-lg">
-          Acheter un billet
+          Three
         </Button>
       </section>
     </div>
